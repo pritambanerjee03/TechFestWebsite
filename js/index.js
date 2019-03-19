@@ -229,7 +229,7 @@ particlesJS("particles_fire-js", {
     shape: {
       type: "image",
       image: {
-        "src" : "../images/fire.png",
+        "src" : "images/fire.png",
         width: 50,
         height: 50
       }
@@ -280,7 +280,7 @@ particlesJS("particles_fire-js", {
   },
   retina_detect: true
 });
-var count_particles, stats, update;
+/* var count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
 stats.domElement.style.position = "absolute";
@@ -296,7 +296,7 @@ update = function() {
   }
   requestAnimationFrame(update);
 };
-requestAnimationFrame(update);
+requestAnimationFrame(update); */
 
 /*
 particlesJS("particles-js", {
